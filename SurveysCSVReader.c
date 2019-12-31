@@ -68,6 +68,6 @@ int main() {
             row.responses[i] = curLoc[i*2];
             fprintf(outFile, "%s,%s,%s,%s,%c\n", row.area, row.survey_ID, exercises[i], questions[i], row.responses[i]);
         }
-
     }
+    return 1;
 }
